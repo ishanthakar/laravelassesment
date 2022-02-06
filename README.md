@@ -9,7 +9,8 @@ php artisan migrate
 2) Create Admin user
 php artisan db:seed
 
-- Import following postman collection for use apis after installing leatest postman collection as we are adding bearer token to use auth apis.
+- Import following postman collection for use apis after installing leatest postman collection.
+- We have to add bearer token use auth apis.
 
 <a href="https://www.getpostman.com/collections/8c092c6a08439e33e6f9">Postman collection (https://www.getpostman.com/collections/8c092c6a08439e33e6f9)</a>
 
