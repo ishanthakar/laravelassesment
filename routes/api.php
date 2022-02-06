@@ -24,7 +24,6 @@ Route::group(['namespace' => 'App\Http\Controllers\Api'], function () {
         Route::post('/me', 'LoginController@updateProfile');
         Route::group(['middleware' => ['authenticateUser']], function () {
             Route::post('/invite-user', 'LoginController@inviteUser');
-        
         });
     });
 });
